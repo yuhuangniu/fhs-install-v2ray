@@ -43,7 +43,7 @@ installed: /etc/systemd/system/v2ray@.service
 
 ```
 // 只更新 .dat 資料檔
-# bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-dat-release.sh)
+# bash <(curl -L https://raw.githubusercontent.com/yuhuangniu/fhs-install-v2ray/master/install-dat-release.sh)
 ```
 
 ### 移除 V2Ray
