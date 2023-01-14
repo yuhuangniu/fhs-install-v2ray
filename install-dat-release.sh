@@ -18,10 +18,10 @@
 # export DAT_PATH='/usr/local/lib/v2ray'
 DAT_PATH=${DAT_PATH:-/usr/local/share/v2ray}
 
-DOWNLOAD_LINK_GEOIP="https://github.com/v2fly/geoip/releases/latest/download/geoip.dat"
-DOWNLOAD_LINK_GEOSITE="https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat"
+DOWNLOAD_LINK_GEOIP="https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
+DOWNLOAD_LINK_GEOSITE="https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
 file_ip='geoip.dat'
-file_dlc='dlc.dat'
+file_dlc='geosite.dat'
 file_site='geosite.dat'
 dir_tmp="$(mktemp -d)"
 
